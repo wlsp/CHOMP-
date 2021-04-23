@@ -1,0 +1,684 @@
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Rock Salt', cursive;
+Farben: #DF8480  //  #FFFFFF  // #242424  //
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&family=Rock+Salt&display=swap");
+
+/* === === === === === === === === === === */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Nunito;
+  background: #fff;
+}
+
+/* Liferando for doggos! */
+
+#hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Rock Salt;
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+.hero2 {
+  background: rgb(223, 132, 128);
+  width: 30em;
+  height: 31.5em;
+}
+
+h2 {
+  position: absolute;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 900;
+  width: 15%;
+  text-align: right;
+  right: 52%;
+  top: 15%;
+}
+
+#doggo {
+  width: 29.225em;
+  height: 31.5em;
+  background-image: url(../img/dog_catching_snack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*  How it works  */
+
+h3 {
+  color: rgb(223, 132, 128);
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0.5em;
+}
+
+#works {
+  display: flex;
+  justify-content: center;
+  height: 45vh;
+}
+
+.box {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(228, 228, 228);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 0 1.7%;
+}
+
+.box h4 {
+  color: rgb(223, 132, 128);
+  font-size: 4em;
+  font-weight: 900;
+  padding-top: 15%;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 18em;
+  height: 15em;
+}
+
+.box p {
+  font-size: 1.1em;
+  padding-top: 15%;
+}
+
+/* Doggos menu: Cookie-Monster */
+
+#menu {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  font-weight: 800;
+  margin-bottom: 4%;
+}
+
+.boxmenu {
+  border-radius: 8px;
+  margin: 0 1.7%;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+  width: 18em;
+  height: 15em;
+}
+
+.menu1 {
+  background-image: url(../img/dog_eating_cookies.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu2 {
+  background-image: url(../img/food1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  position: relative;
+}
+
+.menu2 p:nth-of-type(2) {
+  position: absolute;
+  top: 45%;
+  left: 80%;
+}
+
+.menu2 p:nth-of-type(3) {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.menu3 {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.4em;
+  background-color: rgb(223, 132, 128);
+  color: #fff;
+}
+
+/* Sign Up // Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 28em;
+  font-family: Nunito;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #242424;
+  width: 59.875em;
+  color: #fff;
+}
+
+footer div:nth-of-type(1) {
+  font-size: 2.8em;
+}
+
+footer > section > div > article {
+  width: 75%;
+  margin: 0 0 0 15%;
+  text-align: center;
+}
+
+footer input {
+  font-family: Nunito;
+  height: 3.7em;
+  width: 20em;
+  text-align: center;
+  font-size: 0.4em;
+  font-weight: 400;
+  border-radius: 10em;
+  border: transparent;
+  margin: 8% 2% 0 0;
+}
+
+::placeholder {
+  color: #242424c6;
+}
+
+footer button {
+  height: 3.7em;
+  width: 8em;
+  font-size: 0.4em;
+  font-weight: 400;
+  border-radius: 10em;
+  border: transparent;
+  background-color: rgb(223, 132, 128);
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+footer button:hover {
+  background-color: #fff;
+  color: rgb(223, 132, 128);
+}
+
+footer nav div {
+  display: flex;
+  margin: 15% 0 0 5%;
+}
+
+/* === ==== ==== M E D I A  Q U E R I E S ==== ==== === */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 576px) {
+    h1 {
+      position: absolute;
+      font-size: 0.8em;
+      left: 40%;
+      top: 5%;
+    }
+
+    .hero2 {
+      display: none;
+    }
+
+    h2 {
+      position: absolute;
+      color: rgb(223, 132, 128);
+      font-size: 1em;
+      font-weight: 900;
+      width: 45%;
+      text-align: right;
+      right: 10%;
+      top: 20%;
+    }
+
+    #doggo {
+      width: 100%;
+    }
+
+    /*  How it works  */
+
+    h3 {
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: 900;
+      height: 3.5em;
+      margin: 0;
+      background-color: rgb(223, 132, 128);
+    }
+
+    #works {
+      display: block;
+      height: 120vh;
+    }
+
+    .box {
+      display: block;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      margin: 0;
+      padding: 0;
+
+      border: none;
+      box-shadow: none;
+      border-radius: none;
+    }
+
+    .box h4 {
+      color: rgb(223, 132, 128);
+      font-size: 4em;
+      font-weight: 900;
+      padding-top: 10%;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      display: block;
+      height: 15em;
+    }
+
+    .box p {
+      font-size: 1.1em;
+      padding: 10% 0 0 0;
+    }
+
+    /* Doggos menu: Cookie-Monster */
+
+    #menu {
+      display: block;
+      height: 118vh;
+      font-weight: 800;
+    }
+
+    .boxmenu {
+      border-radius: 0%;
+      margin: 0;
+    }
+
+    .menu1,
+    .menu2,
+    .menu3 {
+      width: 100%;
+    }
+
+    .menu1 {
+      background-image: url(../img/dog_eating_cookies.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu2 {
+      background-image: url(../img/food1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 60%;
+      display: flex;
+      position: relative;
+    }
+
+    .menu2 p:nth-of-type(2) {
+      position: absolute;
+      top: 45%;
+      left: 70%;
+    }
+
+    .menu2 p:nth-of-type(3) {
+      position: absolute;
+      top: 80%;
+      left: 10%;
+    }
+
+    .menu3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 1.4em;
+      background-color: #fff;
+      color: #242424;
+    }
+
+    /* Sign Up // Footer */
+
+    footer {
+      position: relative;
+      display: block;
+      height: 60vh;
+      font-family: Nunito;
+    }
+
+    footer section {
+      display: block;
+      text-align: center;
+      background-color: #242424;
+      width: 100%;
+      height: 60vh;
+      color: #fff;
+    }
+
+    footer > section > div > article {
+      font-size: 0.6em;
+      text-align: center;
+    }
+
+    footer input {
+      font-family: Nunito;
+      height: 3.7em;
+      width: 100%;
+      text-align: center;
+      font-size: 0.4em;
+      font-weight: 400;
+      border-radius: 10em;
+      border: transparent;
+    }
+
+    ::placeholder {
+      color: #242424c6;
+    }
+
+    footer button {
+      height: 3.7em;
+      width: 100%;
+      font-size: 0.4em;
+      font-weight: 400;
+      border-radius: 10em;
+      border: transparent;
+      background-color: rgb(223, 132, 128);
+      color: #fff;
+      transition: all 0.5s ease 0s;
+    }
+
+    footer button:hover {
+      background-color: #fff;
+      color: rgb(223, 132, 128);
+    }
+
+    footer nav div {
+      display: flex;
+      justify-content: center;
+      margin: 15% 0 0 5%;
+    }
+  }
+}
+
+/*
+        ========   ====    =========
+        ======== QUERIES 2 ========= 
+        ========   ====    =========
+ */
+
+@media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 998px) {
+    h1 {
+      position: absolute;
+      font-size: 1.2em;
+      left: 45%;
+      top: 5%;
+    }
+
+    .hero2 {
+      display: none;
+    }
+
+    h2 {
+      position: absolute;
+      color: rgb(223, 132, 128);
+      font-size: 1.5em;
+      font-weight: 900;
+      width: 45%;
+      text-align: right;
+      right: 5%;
+      top: 20%;
+    }
+
+    #doggo {
+      width: 100%;
+      height: 125vh;
+      background-image: url(../img/dog_catching_snack.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /*  How it works  */
+
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: 900;
+      height: 3.5em;
+      margin: 0;
+      background-color: rgb(223, 132, 128);
+    }
+
+    #works {
+      display: block;
+      height: 120vh;
+    }
+
+    .box {
+      width: 100%;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      border-radius: none;
+    }
+
+    .box h4 {
+      color: rgb(223, 132, 128);
+      font-size: 4em;
+      font-weight: 900;
+      padding-top: 10%;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15em;
+    }
+
+    .box p {
+      font-size: 1.1em;
+      padding: 10% 0 0 15%;
+      text-align: left;
+      width: 50%;
+    }
+
+    /* Doggos menu: Cookie-Monster */
+
+    #menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 85vh;
+      font-weight: 800;
+    }
+
+    .boxmenu {
+      border-radius: 0%;
+      margin: 0;
+    }
+
+    .menu1,
+    .menu2,
+    .menu3 {
+      width: 50%;
+    }
+
+    .menu1 {
+      background-image: url(../img/dog_eating_cookies.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu2 {
+      background-image: url(../img/food1.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 60%;
+      display: flex;
+      position: relative;
+    }
+
+    .menu2 p:nth-of-type(2) {
+      position: absolute;
+      top: 45%;
+      left: 70%;
+    }
+
+    .menu2 p:nth-of-type(3) {
+      position: absolute;
+      top: 80%;
+      left: 10%;
+    }
+
+    .menu3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      font-weight: 400;
+      font-size: 1.3em;
+      line-height: 1.4em;
+      background-color: #fff;
+      color: #242424;
+      width: 100%;
+      padding: 0 5%;
+    }
+
+    /* Sign Up // Footer */
+
+    footer {
+      position: relative;
+      display: block;
+      height: 60vh;
+      font-family: Nunito;
+    }
+
+    footer section {
+      display: block;
+      text-align: center;
+      background-color: #242424;
+      width: 100%;
+      height: 60vh;
+      color: #fff;
+    }
+
+    footer > section > div > article {
+      font-size: 0.5em;
+      text-align: center;
+      padding-top: 5%;
+    }
+
+    footer input {
+      font-family: Nunito;
+      height: 5em;
+      width: 60%;
+      text-align: center;
+      font-size: 0.5em;
+      font-weight: 400;
+      border-radius: 10em;
+      border: transparent;
+    }
+
+    ::placeholder {
+      color: #242424c6;
+    }
+
+    footer button {
+      height: 5em;
+      width: 60%;
+      font-size: 0.5em;
+      font-weight: 400;
+      border-radius: 10em;
+      border: transparent;
+      background-color: rgb(223, 132, 128);
+      color: #fff;
+      transition: all 0.5s ease 0s;
+      margin: 2% 0 0 -2%;
+    }
+
+    footer button:hover {
+      background-color: #fff;
+      color: rgb(223, 132, 128);
+    }
+
+    footer nav div {
+      margin: 5% 0 0 5%;
+    }
+  }
+}
+
+/*
+        ========   ====    =========
+        ======== QUERIES 3 ========= 
+        ========   ====    =========
+ */
+
+@media only screen and (min-width: 999px) {
+  @media only screen and (max-width: 1400px) {
+    .hero2 {
+      width: 50%;
+    }
+    #doggo {
+      width: 50%;
+    }
+    /* Footer */
+    footer section {
+      width: 100%;
+      height: 90vh;
+      color: #fff;
+    }
+  }
+}
