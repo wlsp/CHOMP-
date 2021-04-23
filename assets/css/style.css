@@ -407,13 +407,14 @@ footer nav div {
 
     footer input {
       font-family: Nunito;
-      height: 5.5em;
+      height: 6em;
       width: 20em;
       text-align: center;
       font-size: 0.4em;
       font-weight: 400;
       border-radius: 10em;
       border: transparent;
+      margin: 0 auto;
     }
 
     ::placeholder {
@@ -421,7 +422,7 @@ footer nav div {
     }
 
     footer button {
-      height: 5.5em;
+      height: 6em;
       width: 20em;
       font-size: 0.4em;
       font-weight: 400;
