@@ -270,7 +270,7 @@ footer nav div {
 
     #doggo {
       width: 100%;
-      height: 100vh;
+      height: 95vh;
     }
 
     /*  How it works  */
@@ -289,7 +289,7 @@ footer nav div {
 
     #works {
       display: block;
-      height: 105vh;
+      height: 100vh;
     }
 
     .box {
@@ -327,7 +327,7 @@ footer nav div {
 
     #menu {
       display: block;
-      height: 100vh;
+      height:90vh;
       font-weight: 800;
     }
 
@@ -386,7 +386,7 @@ footer nav div {
     footer {
       position: relative;
       display: block;
-      height: 50vh;
+      height: 55vh;
       font-family: Nunito;
     }
 
@@ -395,13 +395,14 @@ footer nav div {
       text-align: center;
       background-color: #242424;
       width: 100%;
-      height: 50vh;
+      height: 55vh;
       color: #fff;
     }
 
     footer > section > div > article {
       font-size: 0.6em;
       text-align: center;
+      padding-top: 5%;
     }
 
     footer input {
