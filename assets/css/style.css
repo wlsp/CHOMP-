@@ -11,6 +11,7 @@ Farben: #DF8480  //  #FFFFFF  // #242424  //
 body {
   margin: 0;
   padding: 0;
+  background: #fff;
 }
 
 * {
