@@ -34,6 +34,13 @@ main {
   justify-content: center;
 }
 
+#logo {
+  position: fixed;
+  top: 3%;
+  left: 17%;
+  width: 3%;
+}
+
 .hero2 {
   display: flex;
   justify-content: center;
@@ -48,7 +55,7 @@ h1 {
 .hero2 {
   background: rgb(223, 132, 128);
   width: 30em;
-  height: 31.5em;
+  height: 42em;
 }
 
 h2 {
@@ -63,8 +70,8 @@ h2 {
 }
 
 #doggo {
-  width: 29.225em;
-  height: 31.5em;
+  width: 30em;
+  height: 42em;
   background-image: url(../img/dog_catching_snack.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -245,207 +252,213 @@ footer nav div {
 /* Small devices (landscape phones, 576px and up) */
 
 @media only screen and (max-width: 480px) {
- 
-    h1 {
-      position: absolute;
-      font-size: 1em;
-      left: 40%;
-      top: 5%;
-    }
-
-    .hero2 {
-      display: none;
-    }
-
-    h2 {
-      position: absolute;
-      color: rgb(223, 132, 128);
-      font-size: 1.4em;
-      font-weight: 900;
-      width: 45%;
-      text-align: right;
-      right: 10%;
-      top: 20%;
-    }
-
-    #doggo {
-      width: 100%;
-      height: 90vh;
-      background-position: left center;
-    }
-
-    /*  How it works  */
-
-    h3 {
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      color: #fff;
-      font-size: 1.3em;
-      font-weight: 900;
-      height: 3.5em;
-      margin: 0;
-      background-color: rgb(223, 132, 128);
-    }
-
-    #works {
-      display: block;
-      height: 100vh;
-    }
-
-    .box {
-      display: block;
-      width: 100%;
-      background: rgb(255, 255, 255);
-      margin: 0;
-      padding: 0;
-
-      border: none;
-      box-shadow: none;
-      border-radius: none;
-    }
-
-    .box h4 {
-      color: rgb(223, 132, 128);
-      font-size: 4em;
-      font-weight: 900;
-      padding-top: 10%;
-    }
-
-    .box1,
-    .box2,
-    .box3 {
-      display: block;
-      height: 15em;
-    }
-
-    .box p {
-      font-size: 1.1em;
-      padding: 10% 0 0 0;
-    }
-
-    /* Doggos menu: Cookie-Monster */
-
-    #menu {
-      display: block;
-      height:90vh;
-      font-weight: 800;
-    }
-
-    .boxmenu {
-      border-radius: 0%;
-      margin: 0;
-    }
-
-    .menu1,
-    .menu2,
-    .menu3 {
-      width: 100%;
-    }
-
-    .menu1 {
-      background-image: url(../img/dog_eating_cookies.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .menu2 {
-      background-image: url(../img/food1.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 60%;
-      display: flex;
-      position: relative;
-    }
-
-    .menu2 p:nth-of-type(2) {
-      position: absolute;
-      top: 45%;
-      left: 70%;
-    }
-
-    .menu2 p:nth-of-type(3) {
-      position: absolute;
-      top: 80%;
-      left: 10%;
-    }
-
-    .menu3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 400;
-      font-size: 1em;
-      line-height: 1.4em;
-      background-color: #fff;
-      color: #242424;
-    }
-
-    /* Sign Up // Footer */
-
-    footer {
-      position: relative;
-      display: block;
-      height: 50vh;
-      font-family: Nunito;
-    }
-
-    footer section {
-      display: block;
-      text-align: center;
-      background-color: #242424;
-      width: 100%;
-      height: 50vh;
-      color: #fff;
-    }
-
-    footer > section > div > article {
-      font-size: 0.6em;
-      text-align: center;
-      padding-top: 10%;
-    }
-
-    footer input {
-      font-family: Nunito;
-      height: 6em;
-      width: 20em;
-      text-align: center;
-      font-size: 0.4em;
-      font-weight: 400;
-      border-radius: 10em;
-      border: transparent;
-      margin: 5% 0 0 0;
-    }
-
-    ::placeholder {
-      color: #242424c6;
-    }
-
-    footer button {
-      height: 6.3em;
-      width: 20.5em;
-      font-size: 0.4em;
-      font-weight: 400;
-      border-radius: 10em;
-      border: transparent;
-      background-color: rgb(223, 132, 128);
-      color: #fff;
-      transition: all 0.5s ease 0s;
-      margin: 5% 0 0 -2%;
-    }
-
-    footer button:hover {
-      background-color: #fff;
-      color: rgb(223, 132, 128);
-    }
-
-    footer nav div {
-      display: flex;
-      justify-content: center;
-      margin: 10% 0 0 0;
-    }
+  #logo {
+    position: fixed;
+    top: 2.5%;
+    left: 2.5%;
+    width: 10%;
   }
+
+  h1 {
+    position: absolute;
+    font-size: 1em;
+    left: 40%;
+    top: 5%;
+  }
+
+  .hero2 {
+    display: none;
+  }
+
+  h2 {
+    position: absolute;
+    color: rgb(223, 132, 128);
+    font-size: 1.4em;
+    font-weight: 900;
+    width: 45%;
+    text-align: right;
+    right: 10%;
+    top: 20%;
+  }
+
+  #doggo {
+    width: 100%;
+    height: 90vh;
+    background-position: left center;
+  }
+
+  /*  How it works  */
+
+  h3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 900;
+    height: 3.5em;
+    margin: 0;
+    background-color: rgb(223, 132, 128);
+  }
+
+  #works {
+    display: block;
+    height: 100vh;
+  }
+
+  .box {
+    display: block;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  .box h4 {
+    color: rgb(223, 132, 128);
+    font-size: 4em;
+    font-weight: 900;
+    padding-top: 10%;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    display: block;
+    height: 15em;
+  }
+
+  .box p {
+    font-size: 1.1em;
+    padding: 10% 0 0 0;
+  }
+
+  /* Doggos menu: Cookie-Monster */
+
+  #menu {
+    display: block;
+    height: 90vh;
+    font-weight: 800;
+  }
+
+  .boxmenu {
+    border-radius: 0%;
+    margin: 0;
+  }
+
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 100%;
+  }
+
+  .menu1 {
+    background-image: url(../img/dog_eating_cookies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .menu2 {
+    background-image: url(../img/food1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    display: flex;
+    position: relative;
+  }
+
+  .menu2 p:nth-of-type(2) {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+  }
+
+  .menu2 p:nth-of-type(3) {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .menu3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em;
+    background-color: #fff;
+    color: #242424;
+  }
+
+  /* Sign Up // Footer */
+
+  footer {
+    position: relative;
+    display: block;
+    height: 50vh;
+    font-family: Nunito;
+  }
+
+  footer section {
+    display: block;
+    text-align: center;
+    background-color: #242424;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+  }
+
+  footer > section > div > article {
+    font-size: 0.6em;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  footer input {
+    font-family: Nunito;
+    height: 6em;
+    width: 20em;
+    text-align: center;
+    font-size: 0.4em;
+    font-weight: 400;
+    border-radius: 10em;
+    border: transparent;
+    margin: 5% 0 0 0;
+  }
+
+  ::placeholder {
+    color: #242424c6;
+  }
+
+  footer button {
+    height: 6.3em;
+    width: 20.5em;
+    font-size: 0.4em;
+    font-weight: 400;
+    border-radius: 10em;
+    border: transparent;
+    background-color: rgb(223, 132, 128);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+    margin: 5% 0 0 -2%;
+  }
+
+  footer button:hover {
+    background-color: #fff;
+    color: rgb(223, 132, 128);
+  }
+
+  footer nav div {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0 0 0;
+  }
+}
 
 /*
         ========   ====    =========
@@ -455,6 +468,13 @@ footer nav div {
 
 @media only screen and (min-width: 768px) {
   @media only screen and (max-width: 998px) {
+    #logo {
+      position: fixed;
+      top: 2.5%;
+      left: 2.5%;
+      width: 10%;
+    }
+
     h1 {
       position: absolute;
       font-size: 1.2em;
