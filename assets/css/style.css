@@ -255,7 +255,7 @@ footer nav div {
 @media only screen and (max-width: 480px) {
   #logo {
     position: fixed;
-    top: 2.5%;
+    top: 5%;
     left: 2.5%;
     width: 10%;
   }
